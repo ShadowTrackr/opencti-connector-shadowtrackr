@@ -26,7 +26,7 @@ The connector works for the following OpenCTI observable types:
 
 Enabling this connector could be done by launching the Python process directly
 after providing the correct configuration in the `config.yml` file or within a
-Docker with the image `opencti/connector-shadowtrackr:latest`.
+Docker container with the image `basvanschaik/opencti-connector-shadowtrackr:1.0.2`.
 
 We provide an example of [`docker-compose.yml`](docker-compose.yml) file that
 could be used independently or integrated to the global `docker-compose.yml`
