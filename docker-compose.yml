@@ -1,7 +1,7 @@
 version: "1"
 services:
   connector-shadowtrackr:
-    image: opencti/connector-shadowtrackr:6.2.13
+    image: basvanschaik/opencti-connector-shadowtrackr:1.0.2
     environment:
       - OPENCTI_URL=http://localhost
       - OPENCTI_TOKEN=ChangeMe
